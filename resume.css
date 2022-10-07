@@ -1,1 +1,153 @@
+h1{
+	text-align: center;
+}
 
+h2{
+	text-decoration: underline;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.personals{
+	background-color:rgba(255,255,255);
+	border-radius:.75em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:55px;
+	position:relative;
+	text-align:center;
+	top:30%;
+	transform:translate(-50%, -50%);
+	width: 80%;
+	height: fit-content;
+}
+
+
+.education{
+	background-color:rgba(255,255,255);
+	border-radius:.75em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:55px;
+	position:relative;
+	top:50%;
+	transform:translate(-50%, -50%);
+	width: 80%;
+	height: fit-content;
+}
+
+.experience{
+	background-color:rgba(255,255,255);
+	border-radius:.75em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:55px;
+	position:relative;
+	top:60%;
+	transform:translate(-50%, -50%);
+	width: 80%;
+	height: fit-content;
+}
+
+.techskills{
+	background-color:rgba(255,255,255);
+	border-radius:.75em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:55px;
+	position:relative;
+	top:70%;
+	transform:translate(-50%, -50%);
+	width: 80%;
+	height: fit-content;
+}
+
+.eduh{
+	text-decoration: underline;
+	margin: 0px;
+	padding: 10px;
+}
+
+html, body {
+	width: 100%;
+	height:100%;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	font-family: montserrat;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.site-footer {
+	background-color: white;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+	top: 70%;
+	position: relative;
+}
+
+#social-wrapper {
+	text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+	text-align: center;
+}
+
+.social-wrapper ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon{
+	margin-top: .625em;
+	width: 40px;
+	height: 40px;
+	opacity: .6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+	border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.googleplus-icon:hover,
+.youtube-icon:hover,
+.foursquare-icon:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.footer-nav p {
+	text-align: center;
+}
