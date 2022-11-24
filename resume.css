@@ -23,6 +23,7 @@ h3{
 	display: block;
 	box-sizing: border-box;
 	margin-top: 15%;
+	text-overflow: clip;
 }
 
 
