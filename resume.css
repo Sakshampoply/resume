@@ -25,16 +25,7 @@ h3{
 	box-sizing: border-box;
 	margin-top: 15%;
 	height: 50%;
-	display: flex;
-  flex-wrap: wrap;
-  border: 1px solid #f00;
-  $breakpoint: 600px;
-  --multiplier: calc( #{$breakpoint} - 100%);
-  .element{
-    min-width: 33%;
-    max-width: 100%;
-    flex-grow: 1;
-    flex-basis: calc( var(--multiplier) * 999 );
+	text-overflow: clip;
   }
 }
 }
