@@ -175,26 +175,3 @@ iframe {
 .footer-nav p {
 	text-align: center;
 }
-
-@media(max-width: 600px){
-	.personals{
-		margin-left: 20%;
-	}
-
-	.education{
-		margin-left: 20%;
-	}
-
-	.experience{
-		margin-left: 20%;
-	}
-
-	.techskills{
-		margin-left: 20%;
-	}
-
-	.projects{
-		margin-left: 20%;
-	}
-
-}
