@@ -11,6 +11,10 @@ h3{
 	text-align: center;
 }
 
+h5{
+	margin-top: 15px;
+}
+
 .personals{
 	padding: 40px;
 	text-align: left;
@@ -86,10 +90,6 @@ h3{
 	text-decoration: underline;
 	margin: 0px;
 	padding: 10px;
-}
-
-[class*="col-"] {
-  width: 100%;
 }
 
 h1.pers {
@@ -200,6 +200,5 @@ iframe {
 	.techskills{
 		padding: 20px;
 	}
-
 
 }
