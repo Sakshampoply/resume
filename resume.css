@@ -92,7 +92,7 @@ h3{
   width: 100%;
 }
 
-.pers {
+h1.pers {
 	margin-top: 70px;
 }
 
@@ -176,3 +176,20 @@ iframe {
 	text-align: center;
 }
 
+@media(max-width: 420px){
+	div{
+		font-size: 10px;
+	}
+
+	iframe{
+		width: 250px;
+	}
+	.pers{
+		font-size: 20px;
+	}
+	.personals{
+		margin-top: 20%;
+	}
+
+
+}
